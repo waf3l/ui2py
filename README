@@ -1,0 +1,15 @@
+The code for class UiWatch/watch.py and EventHandler is from
+--ThreadedNotifier example from tutorial
+--
+--See: http://github.com/seb-m/pyinotify/wiki/Tutorial
+
+Usage:
+Options:
+    -h, --help display this message
+    -i, --input <the path to dir or path with file name to watch>
+    
+Example of usage:
+    ui2py.py -i /home/user/Project/Ui
+    ui2py.py -i /home/user/Project/Ui/MainWindow.ui
+    ui2py.py --input /home/user/Project/Ui
+    ui2py.py --input /home/user/Project/Ui/MainWindow.ui
